@@ -1,5 +1,6 @@
 # ideapad-3-15iil05-hackintosh
 ![alt text](https://github.com/ho1yspirt/ideapad-3-15iil05-hackintosh/blob/main/preview.png?raw=true)
+
 EFI for Lenovo Ideapad 3 15iil05 with i5 1035G1
 
 Used OLARILA mobile as base (dont judge me, I just lazy af) with internet fix for intel wifi card
