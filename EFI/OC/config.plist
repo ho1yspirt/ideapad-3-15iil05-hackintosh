@@ -169,6 +169,60 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>VirtualSMC.kext/Contents/Plugins/SMCProcessor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCProcessor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VirtualSMC.kext/Contents/Plugins/SMCLightSensor.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCLightSensor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VirtualSMC.kext/Contents/Plugins/SMCBatteryManager.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCBatteryManager</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -212,6 +266,60 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AtherosE2200Ethernet</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelBluetoothFirmware.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBluetoothFirmware</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>IntelBTPatcher.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBTPatcher</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -367,85 +475,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext/Contents/Plugins/SMCBatteryManager.kext</string>
+				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCBatteryManager</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VirtualSMC.kext/Contents/Plugins/SMCLightSensor.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCLightSensor</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VirtualSMC.kext/Contents/Plugins/SMCProcessor.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCProcessor</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooGPIO</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2CServices</string>
+				<string>Contents/MacOS/VoodooI2C</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -475,13 +511,31 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VoodooI2C.kext</string>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VoodooI2C</string>
+				<string>Contents/MacOS/VoodooI2CServices</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VoodooGPIO</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -845,6 +899,134 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+		<dict>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
+			<key>BoardProduct</key>
+			<string>Mac-5F9802EFE386AA28</string>
+			<key>BoardRevision</key>
+			<data>Bg==</data>
+			<key>DevicePathsSupported</key>
+			<integer>0</integer>
+			<key>FSBFrequency</key>
+			<integer>0</integer>
+			<key>InitialTSC</key>
+			<integer>0</integer>
+			<key>PlatformName</key>
+			<string></string>
+			<key>SmcBranch</key>
+			<data></data>
+			<key>SmcPlatform</key>
+			<data>ajIxNGsAAAA=</data>
+			<key>SmcRevision</key>
+			<data></data>
+			<key>StartupPowerEvents</key>
+			<integer>0</integer>
+			<key>SystemProductName</key>
+			<string>MacBookPro16,2</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DW4YRML7H</string>
+			<key>SystemUUID</key>
+			<string>B410C147-996E-4D97-A4D3-F6ADCBB14F46</string>
+		</dict>
+		<key>Generic</key>
+		<dict>
+			<key>AdviseFeatures</key>
+			<false/>
+			<key>MaxBIOSVersion</key>
+			<false/>
+			<key>MLB</key>
+			<string>C02052207J9P8PGCB</string>
+			<key>ProcessorType</key>
+			<integer>1547</integer>
+			<key>ROM</key>
+			<data>w35YqIin</data>
+			<key>SpoofVendor</key>
+			<true/>
+			<key>SystemMemoryStatus</key>
+			<string>Upgradable</string>
+			<key>SystemProductName</key>
+			<string>MacBookPro16,2</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DW4YRML7H</string>
+			<key>SystemUUID</key>
+			<string>B410C147-996E-4D97-A4D3-F6ADCBB14F46</string>
+		</dict>
+		<key>PlatformNVRAM</key>
+		<dict>
+			<key>BID</key>
+			<string>Mac-5F9802EFE386AA28</string>
+			<key>FirmwareFeatures</key>
+			<data>bvCv/wgAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f////wgAAAA=</data>
+			<key>MLB</key>
+			<string>C02052207J9P8PGCB</string>
+			<key>ROM</key>
+			<data>w35YqIin</data>
+			<key>SystemSerialNumber</key>
+			<string>C02DW4YRML7H</string>
+			<key>SystemUUID</key>
+			<string>B410C147-996E-4D97-A4D3-F6ADCBB14F46</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>03/04/2023</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>1968.100.17.0.0</string>
+			<key>BoardAssetTag</key>
+			<string></string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-5F9802EFE386AA28</string>
+			<key>BoardSerialNumber</key>
+			<string>C02052207J9P8PGCB</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>MacBookPro16,2</string>
+			<key>ChassisAssetTag</key>
+			<string></string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>C02DW4YRML7H</string>
+			<key>ChassisType</key>
+			<integer>9</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-5F9802EFE386AA28</string>
+			<key>FirmwareFeatures</key>
+			<data>bvCv/wgAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f////wgAAAA=</data>
+			<key>PlatformFeature</key>
+			<integer>58</integer>
+			<key>ProcessorType</key>
+			<integer>1547</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string>MacBook Pro</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>MacBookPro16,2</string>
+			<key>SystemSKUNumber</key>
+			<string></string>
+			<key>SystemSerialNumber</key>
+			<string>C02DW4YRML7H</string>
+			<key>SystemUUID</key>
+			<string>B410C147-996E-4D97-A4D3-F6ADCBB14F46</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
+		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
 		<key>UpdateNVRAM</key>
@@ -1106,6 +1288,8 @@
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
